@@ -1,0 +1,89 @@
+body{
+	background-color: rgb(163, 73, 19);
+	margin: 0px;
+}
+
+h1, h2{
+	padding: 10px;
+	text-align: center;
+	color : white;
+	font-family:"Calibri";
+}
+
+h3{
+	/*padding: 10px;*/
+	text-align: center;
+	color : white;
+	font-size: 150%;
+	margin: 20px 5px 20px 5px;
+	font-family: "Calibri"
+}
+
+/*List staring on left side*/
+li{
+	float:left;
+}
+
+/*Allows for horizonal list*/
+li a {
+	display: inline-block;
+	text-align: center;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*Backround color of the navigation bar*/
+ul{
+	list-style-type: none;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(163, 107, 19);
+}
+
+/*Backround color for navigation bar*/
+ul a{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px 10px;
+	width: 100px;
+	background-color: rgb(163, 107, 19);
+}
+
+/*When not hovering over link, but on that page, change color*/
+li #navmenu:hover:not(.active){
+	background-color: rgb(20, 60, 107);
+	color: white;
+}
+
+/*When page is active, make it this color*/
+.active{
+	background-color: rgb(20, 60, 107);
+}
+
+div.canaseraga_pictures{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.main_pic{
+	min-width: 85%;
+	min-height: 80%;
+	padding: 10px;
+}
+
+img.setup{
+	min-width: 60%;
+	min-height: 50%;
+	padding: 10px;
+}
+
+/*.setup{
+	flex-wrap: wrap;
+}
+*/

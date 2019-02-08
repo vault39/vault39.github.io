@@ -1,0 +1,113 @@
+/*Selector{
+	Property: value;
+}*/
+
+/*Backround Color*/
+body{
+	background-color: rgb(163, 73, 19);
+	margin: 0px;
+}
+
+/*Header style*/
+h1, h2{
+	padding: 10px;
+	text-align: center;
+	color : white;
+	font-family:"Calibri";
+
+}
+
+h3{
+	/*padding: 10px;*/
+	text-align: center;
+	color : white;
+	font-size: 150%;
+	margin: 20px 5px 20px 5px;
+	font-family: "Calibri"
+}
+
+/*List staring on left side*/
+li{
+	float:left;
+}
+
+/*Allows for horizonal list*/
+li a {
+	display: inline-block;
+	text-align: center;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*Backround color of the navigation bar*/
+ul{
+	list-style-type: none;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(163, 107, 19);
+}
+
+/*Backround color for navigation bar*/
+ul a{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px 10px;
+	width: 100px;
+	background-color: rgb(163, 107, 19);
+}
+
+/*When not hovering over link, but on that page, change color*/
+li #navmenu:hover:not(.active){
+	background-color: rgb(20, 60, 107);
+	color: white;
+}
+
+/*When page is active, make it this color*/
+.active{
+	background-color: rgb(20, 60, 107);
+}
+
+/*All changes to all images*/
+img{
+	transition: all 1s;
+}
+
+/*When over image, allows it to get bigger*/
+img:hover{
+	transform: scale(1.1);
+}
+
+/*Makes all flag pictures the same size*/
+img.flag{
+	width: 180px;
+	height: 250px;
+	margin: 5px 10px;
+}
+
+/*Makes all cup pictures the same size*/
+img.cup{
+	width: 150px;
+	height: 250px;
+	margin: 5px 10px;
+}
+
+/*Center Aligns pictures on Product page*/
+/*div.American, div.Tumbler{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}*/
+
+div.americancards, div.tumblercups, div.ceramictiles{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.card{
+	background-color: rgb(163, 107, 19);
+	margin: 10px;
+}
